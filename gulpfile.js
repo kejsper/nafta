@@ -42,9 +42,9 @@ gulp.task('minify-js', () => {
 });
 
 gulp.task('minify-html', () => {
-    return gulp.src('static/*.html')
+    return gulp.src('html/*.html')
                .pipe(minifyHTML())
-               .pipe(gulp.dest('build'))
+               .pipe(gulp.dest('./'))
 });
 
 gulp.task('watch', () => {
