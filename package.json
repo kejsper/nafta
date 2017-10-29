@@ -1,0 +1,28 @@
+{
+  "name": "nafta",
+  "version": "1.0.0",
+  "description": "nafta restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kejsper/nafta.git"
+  },
+  "keywords": [
+    "nafta",
+    "restaurant",
+    "wordpress",
+    "rest-api"
+  ],
+  "author": "Kacper Tylenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kejsper/nafta/issues"
+  },
+  "homepage": "https://github.com/kejsper/nafta#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
